@@ -1,0 +1,26 @@
+2017-03-22 22:15:58,042 PID27660: Watch started. The current state of calculations:
+2017-03-22 22:15:58,042 PID27660: total calculations: 2
+2017-03-22 22:15:58,042 PID27660: submitted: 0
+2017-03-22 22:15:58,042 PID27660: running: 0
+2017-03-22 22:15:58,042 PID27660: normally terminated: 0
+2017-03-22 22:15:58,042 PID27660: terminated with error: 0
+2017-03-22 22:15:58,042 PID27660: remaining: 2
+2017-03-22 22:16:28,080 
+PID27660: The shift is over, watchman may rest.
+2017-03-22 22:16:28,080 PID27660: total calculations: 2
+2017-03-22 22:16:28,081 PID27660: normally terminated: 2
+2017-03-22 22:16:28,081 PID27660: terminated with error: 0
+
+2017-03-22 22:18:32,545 PID27874: Watch started. The current state of calculations:
+2017-03-22 22:18:32,546 PID27874: total calculations: 3
+2017-03-22 22:18:32,546 PID27874: submitted: 0
+2017-03-22 22:18:32,546 PID27874: running: 0
+2017-03-22 22:18:32,546 PID27874: normally terminated: 1
+2017-03-22 22:18:32,546 PID27874: terminated with error: 0
+2017-03-22 22:18:32,546 PID27874: remaining: 2
+2017-03-22 22:20:32,675 
+PID27874: The shift is over, watchman may rest.
+2017-03-22 22:20:32,676 PID27874: total calculations: 3
+2017-03-22 22:20:32,676 PID27874: normally terminated: 3
+2017-03-22 22:20:32,676 PID27874: terminated with error: 0
+

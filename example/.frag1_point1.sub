@@ -1,0 +1,18 @@
+#$ -cwd
+#$ -S /bin/tcsh
+#$ -pe dummy 4
+#$ -q big
+#$ -N frag1_point1
+#$ -j y
+#$ -o .frag1_point1.out.$JOB_ID
+/home/rokoba/bin/rung09uni-gau-set-l0-nochk frag1_point1.com 4 `/home/rokoba/bin/rung09uni-gau-select-memory 4`
+newgrp g03
+limit stacksize unlimited
+setenv GAUSS_SCRDIR /state/partition1/berta
+mkdir -p $GAUSS_SCRDIR
+setenv g09root `/home/rokoba/bin/rung09uni-gau-select-version`
+source $g09root/g09/bsd/g09.login
+hostname >frag1_point1.out
+g09 <frag1_point1.com  >>frag1_point1.out
+echo termination >> frag1_point1.out
+echo End
